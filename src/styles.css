@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+ --defaul-font: "Inter", serif;
+}
+
+:root {
+    .dark {
+        --app-gray-default: #ffffff;
+        --app-gray-50: #f9fafb;
+        --app-gray-100: #f3f4f6;
+        --app-gray-200: #e5e7eb;
+        --app-gray-300: #d1d5db;
+        --app-gray-400:#9ca3af;
+        --app-gray-500: #6b7280;
+        --app-gray-600: #4b5563;
+        --app-gray-700: #374151;
+        --app-gray-800:#1f2937;
+        --app-gray-900: #111827;
+        --app-gray-950: #030712;
+      }    
+ }
+  
+  body{
+    font-family: var(--defaul-font);
+  }
