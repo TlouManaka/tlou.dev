@@ -27,3 +27,10 @@
   .nav-link:focus::after{
     opacity: 1;
   }
+
+  @media (min-width: 992px) { /* Large breakpoint */
+    .custom-padding {
+        padding-left: 10rem !important;
+        padding-right: 10rem !important;
+    }
+}
