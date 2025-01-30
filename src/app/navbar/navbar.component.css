@@ -5,3 +5,25 @@
     font-weight:bolder;
     text-decoration: none;
   }
+
+  .nav-link{
+    font-weight: 500;
+    transition: all 0.4s;
+  }
+
+  .nav-link::after{
+
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--app-gray-950);
+    display: block;
+  
+    opacity: 0;
+    transition: all 0.4s;
+  }
+
+  .nav-link:hover::after,
+  .nav-link:focus::after{
+    opacity: 1;
+  }
