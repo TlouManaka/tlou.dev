@@ -19,12 +19,12 @@ import LogoCypress from '/public/images/logos/icon-cypress.svg';
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
-import LogoAngular  from '/Public/images/logos/icon-angular.svg';
-import LogoMssql  from '/Public/images/logos/icon-mssql.svg';
-import Logoc from '/Public/images/logos/icon-c.svg';
-import LogoSharepoint  from '/Public/images/logos/icon-sharepoint.svg';
-import LogoDotnet  from '/Public/images/logos/icon-dotnet.svg';
-import LogoBootstrap  from '/Public/images/logos/icon-bootstrap.svg';
+import LogoAngular  from '/public/images/logos/icon-angular.svg';
+import LogoMssql  from '/public/images/logos/icon-mssql.svg';
+import Logoc from '/public/images/logos/icon-c.svg';
+import LogoSharepoint  from '/public/images/logos/icon-sharepoint.svg';
+import LogoDotnet  from '/public/images/logos/icon-dotnet.svg';
+import LogoBootstrap  from '/public/images/logos/icon-bootstrap.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
