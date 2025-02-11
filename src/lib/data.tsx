@@ -19,6 +19,12 @@ import LogoCypress from '/public/images/logos/icon-cypress.svg';
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoAngular  from '/Public/images/logos/icon-angular.svg';
+import LogoMssql  from '/Public/images/logos/icon-mssql.svg';
+import Logoc from '/Public/images/logos/icon-c.svg';
+import LogoSharepoint  from '/Public/images/logos/icon-sharepoint.svg';
+import LogoDotnet  from '/Public/images/logos/icon-dotnet.svg';
+import LogoBootstrap  from '/Public/images/logos/icon-bootstrap.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -118,8 +124,8 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
   {
     label: 'Angular',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
+    logo: LogoAngular,
+    url: 'https://angular.dev/',
   },
   {
     label: 'Tailwindcss',
@@ -133,6 +139,37 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+
+    label:'bootstrap',
+    logo:LogoBootstrap,
+    url:'https://getbootstrap.com/'
+  },
+  {
+
+    label:'Sharepoint',
+    logo:LogoSharepoint,
+    url:'https://www.microsoft.com/en-za/microsoft-365/sharepoint/collaboration/'
+  },
+  {
+
+    label:'MSSql',
+    logo:LogoMssql,
+    url:'https://www.microsoft.com/en-us/sql-server/'
+  },
+  {
+
+    label:'Dotnet',
+    logo:LogoDotnet,
+    url:'https://dotnet.microsoft.com/en-us/'
+  },
+  {
+
+    label:'C#',
+    logo:Logoc,
+    url:'https://learn.microsoft.com/en-us/dotnet/csharp/'
+  },
+
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [

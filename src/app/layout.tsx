@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: '@tloumanaka',
-    images: '/images/open-graph-sagar.png',
+    
   },
   icons: {
     icon: '/favicon.ico',
