@@ -7,17 +7,8 @@ import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
+
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoAngular  from '/public/images/logos/icon-angular.svg';
 import LogoMssql  from '/public/images/logos/icon-mssql.svg';
@@ -34,10 +25,9 @@ import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
 import ProjectWebApi from '/public/images/project-web-api.png';
 import ProjectCEM from '/public/images/project-cem.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import ProjectSharepoint from '/public/images/project-sharepoint.png';
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
+
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
@@ -46,7 +36,7 @@ import {
   TechDetails,
   TestimonialDetails,
 } from '@/lib/types';
-import { url } from 'inspector';
+
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/TlouManaka',
@@ -241,43 +231,43 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Sharepoint intranet site',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+      'Design Intranet with Sharepoint UI kit on figma and developed with microsoft sharepoint framework.',
+    url: '',
+    previewImage: ProjectSharepoint,
     technologies: [
-      'React',
-      'Next.js',
       'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
+      'Microsoft Sharepoint framework',
+      'Application customizer',
+      'Sharepoint web parts',
+      'Gulp',
+      'Yeoman',
+      'Figma Sharepoint UI Kit',
     ],
   },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
-  },
-  {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
-    testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
-  },
-  {
-    personName: 'Joe Matkin',
+    personName: 'Rob Moloto',
     personAvatar: AvatarDummy,
-    title: 'Freelancer',
+    title: 'Group IT Manager - Gxakra Investment Pty LTD',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Tlou and will rehire in the future for Frontend development.',
+  },
+  {
+    personName: 'Sisco Gweru',
+    personAvatar: AvatarDummy,
+    title: 'Operational Manager- Future Business Consulting Pty LTD',
+    testimonial:
+      'Great guy, highly recommended for any COMPLEX software development job! His skills are top-notch and he will be an amazing addition to any team.',
+  },
+  {
+    personName: 'Pale Moeketsi',
+    personAvatar: AvatarDummy,
+    title: 'IT Engineer - DMS Poweders SA',
+    testimonial:
+      'Tlou was extremely easy and pleasant to work with and he truly cares about the project being a success. Tlou  has a high level of knowledge and was able to work on my MERN stack application without any issues.',
   },
 ];
