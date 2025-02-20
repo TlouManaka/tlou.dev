@@ -32,8 +32,8 @@ import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
+import ProjectWebApi from '/public/images/project-web-api.png';
+import ProjectCEM from '/public/images/project-cem.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
@@ -212,42 +212,32 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Customer-Experience-Management-System',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      'This Customer Experience Management (CEM) System is designed to enhance customer interactions and optimize their experience across various touchpoints. The system provides businesses with insights into customer behavior, preferences, and feedback, enabling them to deliver personalized and efficient service.',
+    url: 'https://github.com/TlouManaka/Customer-Experience-Management-System',
+    previewImage: ProjectCEM,
     technologies: [
-      'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Chart.js',
+      'C# and .Net framework',
+      'Entity framework core',
+      '.Net web apis',
+      'SQL Server',
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'Weather Web Api',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'The Weather Web API is a RESTful service built with C# and ASP.NET Core, designed to fetch and provide real-time weather data using the OpenWeather API. It enables users to retrieve weather conditions for different locations through a simple and efficient API interface.',
+    url: '#',
+    previewImage: ProjectWebApi,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'c#',
+      'Asp.net core',
+    
     ],
   },
   {
