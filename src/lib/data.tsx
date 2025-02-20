@@ -176,8 +176,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoUpwork,
     logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    position: 'IT intern(University Placement)',
+    startDate: new Date(2021, 11),
     currentlyWorkHere: true,
     summary: [
       'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
@@ -203,8 +203,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
     logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
+    position: 'IT intern(University Placement)',
+    startDate: new Date(2021, 11),
     endDate: new Date(2017, 4),
     summary: ['Worked as a full stack developer (React / Laravel).'],
   },
