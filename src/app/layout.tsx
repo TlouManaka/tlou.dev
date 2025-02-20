@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/profile.png',
       },
     ],
   },
